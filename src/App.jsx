@@ -12,8 +12,8 @@ import {
   ThemeProvider,
 } from "@mui/material";
 
-import UserForm from "./components/UserForm";
-import UserList from "./components/UserList";
+import UserForm from "./components/userForm";
+import UserList from "./components/userList";
 
 const theme = createTheme({
   palette: {
