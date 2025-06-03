@@ -1,4 +1,5 @@
 // src/components/UserForm.jsx
+//. 
 import React from "react";
 import { TextField, Button, Box } from "@mui/material";
 
@@ -15,17 +16,20 @@ export default function UserForm({ form, handleChange, handleSubmit }) {
         required
         autoFocus
         sx={{
-          "& .MuiInputLabel-root": { color: "#6a1b9a" },
+          "& .MuiInputLabel-root": { color: "#311b92" },
           "& .MuiOutlinedInput-root": {
             "& fieldset": {
-              borderColor: "#6a1b9a",
+              borderColor: "#388e3c",
             },
             "&:hover fieldset": {
-              borderColor: "#43a047",
+              borderColor: "#311b92",
             },
             "&.Mui-focused fieldset": {
-              borderColor: "#43a047",
+              borderColor: "#311b92",
             },
+          },
+          input: {
+            color: "#212121",
           },
         }}
       />
@@ -39,24 +43,27 @@ export default function UserForm({ form, handleChange, handleSubmit }) {
         required
         type="email"
         sx={{
-          "& .MuiInputLabel-root": { color: "#6a1b9a" },
+          "& .MuiInputLabel-root": { color: "#311b92" },
           "& .MuiOutlinedInput-root": {
             "& fieldset": {
-              borderColor: "#6a1b9a",
+              borderColor: "#388e3c",
             },
             "&:hover fieldset": {
-              borderColor: "#43a047",
+              borderColor: "#311b92",
             },
             "&.Mui-focused fieldset": {
-              borderColor: "#43a047",
+              borderColor: "#311b92",
             },
+          },
+          input: {
+            color: "#212121",
           },
         }}
       />
       <Button
         type="submit"
         variant="contained"
-        color="secondary"
+        color="primary"
         fullWidth
         sx={{ mt: 3, py: 1.5, fontWeight: "bold", fontSize: "1rem" }}
       >
